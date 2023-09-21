@@ -1,0 +1,4 @@
+git clone https://github.com/HelloWorld.git
+git a -A
+git commit -m "short description of change"
+git push
