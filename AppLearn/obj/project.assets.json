@@ -3004,11 +3004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/AppLearn.csproj",
+      "projectUniqueName": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/AppLearn/AppLearn.csproj",
       "projectName": "AppLearn",
-      "projectPath": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/AppLearn.csproj",
+      "projectPath": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/AppLearn/AppLearn.csproj",
       "packagesPath": "/Users/griffinfreudenberg/.nuget/packages/",
-      "outputPath": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/obj/",
+      "outputPath": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/AppLearn/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/griffinfreudenberg/.nuget/NuGet/NuGet.Config"

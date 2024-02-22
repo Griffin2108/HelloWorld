@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AppLearn</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script defer src="~/js/site.js"></script>
+</head>
+<body>
+    <section id="WelcomeSection" style="min-height: 750px;">
+        <div class="text-center">
+            <div class="welcomeSection">
+                <div class="hidden">
+                    <div class="whiteBackground">
+                        <h1>Exploring Science One Game At A Time</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Testimonials" style="min-height: 500px;">
+        <div class="notFullContainer" style="height: max-content; margin: auto;">
+            <div class="hidden">
+                <h2 class="gameIntro text-center display-3" id="fade-on-scroll">User Testimonials</h2>
+            </div>
+            <div class="d-flex justify-content-center" style="margin-bottom:5vh;">
+                <div id="gameCarousel" class="carousel w-50 slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carouselBorder">
+                                <img class="d-block " src="https://americanradioworks.publicradio.org/features/personalized-learning/images/mooresville13.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="fs-3">First slide label</h3>
+                                    <p class="fs-5">Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carouselBorder">
+                                <img class="d-block" src="https://assets.gocoderz.com/site/wp-content/uploads/2016/07/cute-pupils-in-computer-class-with-teacher-1024x512.jpg" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 class="fs-3">Second slide label</h3>
+                                    <p class="fs-5">Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gameCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#gameCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hidden" id="AppLearnInfo" style="min-height: 500px;">
+        <div class="whatIsAppLearn">
+            <div style="float: left; width: 60%; height: 400px; padding-left: 50px; padding-top: 13px; margin: auto;">
+                <iframe id="youtubeBorder" width="700" height="375" src="https://www.youtube.com/embed/RdzCXBgB-9s" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div style="float: right; width: 40%; height: auto; padding-right: 40px; display: flex; align-items: center;">
+                <div style="flex-direction: column;">
+                    <h2 style="text-align: center;">What is AppLearn?</h2>
+                    <p>
+                        AppLearn is a cutting-edge platform that empowers users to learn and explore a wide range of topics.
+                        Our mission is to provide <span style="font-weight:bold;">high-quality</span> educational content that enhances your skills and knowledge.
+                        Whether you're a beginner or an expert, AppLearn has something for <span style="font-weight:bold;">everyone.</span>
+                    </p>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </section>
+    <section class="game-section" style="min-height: 500px;">
+        <div class="games">
+            <div class="game hidden">
+                <img src="~/img/video-game-controller-top.jpg" alt="Game 1">
+                <h2>Game 1</h2>
+                <p>
+                    A fantasy archery game where players use real-world math to hit targets. Calculations for projectile motion,
+                    wind speed, and arrow properties add depth. Players solve puzzles and unlock magical enhancements, blending
+                    education with action in a mystical realm.
+                </p>
+            </div>
+
+            <div class="game hidden">
+                <img src="~/img/controller2.jpeg" alt="Game 2">
+                <h2>Game 2</h2>
+                <p>
+                    A fantasy archery game where players use real-world math to hit targets. Calculations for projectile motion,
+                    wind speed, and arrow properties add depth. Players solve puzzles and unlock magical enhancements, blending
+                    education with action in a mystical realm.
+                </p>
+            </div>
+        </div>
+
+        <!-- Add more games as needed -->
+
+    </section>
+</body>
+</html>
