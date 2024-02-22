@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E04VMvegxJgrclQCZLLdvE33IY0Wfa8AdL+HfOHDlQo=",
+  "Hash": "KMXZkIR1EfrsjBWiyN5AUmx0+3i8pjWgJYVU4+Ri3GA=",
   "Source": "AppLearn",
   "BasePath": "_content/AppLearn",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/obj/Debug/net6.0/scopedcss/projectbundle/AppLearn.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/wwwroot/.DS_Store",
+      "SourceId": "AppLearn",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/wwwroot/",
+      "BasePath": "_content/AppLearn",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/wwwroot/css/login-page.css",

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/AppLearn.bundle.scp.css"
     },
     {
+      "Id": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/griffinfreudenberg/Documents/GitHub/AppLearnWebsite/AppLearn/wwwroot/css/login-page.css",
       "PackagePath": "staticwebassets/css/login-page.css"
     },
