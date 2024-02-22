@@ -1,32 +1,53 @@
 ﻿<Properties StartupConfiguration="{6FA5444D-5D30-4A42-B100-4A7CB0BCABE9}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AppLearn PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppLearn/Views/Home/Privacy.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppLearn/Views/Home/Index.html">
     <Files>
-      <File FileName="AppLearn/Views/Home/Index.cshtml" />
+      <File FileName="AppLearn/Views/Home/Index.cshtml" Line="5" Column="5" />
       <File FileName="AppLearn/Views/Games/Index.cshtml" />
       <File FileName="AppLearn/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="AppLearn/Views/Home/EmptyHtmlFile.html" Line="6" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AppLearn">
-            <Node name="AppLearn" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
+          <Node name="AppLearn" selected="True">
+            <Node name="AppLearn" selected="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" selected="True" />
+              <Node name="Controllers" selected="True" />
+              <Node name="Data" selected="True" />
+              <Node name="Migrations" selected="True" />
+              <Node name="Models" selected="True" />
+              <Node name="Properties" selected="True" />
+              <Node name="Views" selected="True">
+                <Node name="Account" selected="True" />
+                <Node name="Games" selected="True" />
+                <Node name="Home" selected="True">
+                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Index.html" selected="True" />
                   <Node name="Privacy.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True" selected="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
+                  <Node name="Error.cshtml" selected="True" />
+                </Node>
+                <Node name="_ViewImports.cshtml" selected="True" />
+                <Node name="_ViewStart.cshtml" selected="True" />
               </Node>
+              <Node name="wwwroot" selected="True" />
+              <Node name="appsettings.json" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AppLearn PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
