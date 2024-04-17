@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{6FA5444D-5D30-4A42-B100-4A7CB0BCABE9}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppLearn/Views/Home/Index.html">
+    <Files>
+      <File FileName="AppLearn/New Folder/Index.html" Line="25" Column="1" />
+      <File FileName="AppLearn/Controllers/AccountController.cs" Line="15" Column="24" />
+      <File FileName="AppLearn/Controllers/HomeController.cs" Line="32" Column="2" />
+      <File FileName="AppLearn/Views/_ViewImports.cshtml" Line="1" Column="16" />
+      <File FileName="AppLearn/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AppLearn" selected="True">
+            <Node name="AppLearn">
+              <Node name="Controllers" expanded="True" />
+              <Node name="New Folder" expanded="True" />
+              <Node name="Views">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AppLearn PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

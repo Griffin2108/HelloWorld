@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/AppLearn.csproj": {}
+    "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/AppLearn.csproj": {}
   },
   "projects": {
-    "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/AppLearn.csproj": {
+    "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/AppLearn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/AppLearn.csproj",
+        "projectUniqueName": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/AppLearn.csproj",
         "projectName": "AppLearn",
-        "projectPath": "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/AppLearn.csproj",
+        "projectPath": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/AppLearn.csproj",
         "packagesPath": "/Users/griffinfreudenberg/.nuget/packages/",
-        "outputPath": "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/obj/",
+        "outputPath": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/griffinfreudenberg/.nuget/NuGet/NuGet.Config"

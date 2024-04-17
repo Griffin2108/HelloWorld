@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hKTJRkCfkW0LyX9q+bk1bBkGcsY5w/vJwJKcwEVGRCzAzoibM2yc7UrZfxQQ1/dFFZzo/kfj/bFKyIu3d5D23A==",
+  "dgSpecHash": "hk4uP6BgT74AFCntLc9UGEjsrjqn3KMBMQBmi34muKyMP9zydEMbch2sh6dPpZO4FFDOIBl3H8vZwkI08wHyng==",
   "success": true,
-  "projectFilePath": "/Users/griffinfreudenberg/Documents/GitHub/untitled folder/AppLearn/AppLearn.csproj",
+  "projectFilePath": "/Users/griffinfreudenberg/Documents/GitHub/HelloWorld/untitled folder/AppLearn/AppLearn.csproj",
   "expectedPackageFiles": [
     "/Users/griffinfreudenberg/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/griffinfreudenberg/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

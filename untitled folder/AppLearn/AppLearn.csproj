@@ -16,13 +16,12 @@
     <None Remove="Views\JS files\**" />
     <None Remove="wwwroot\imgs\**" />
     <None Remove="New Folder\" />
-    <None Remove="New Folder\site.css" />
-    <None Remove="New Folder\site.js" />
     <None Remove="New Folder\img\App-Learn Wordmark V1.png" />
     <None Remove="New Folder\img\AppLearn Logo V1.png" />
     <None Remove="New Folder\img\controller2.jpeg" />
     <None Remove="New Folder\img\video-game-controller-top.jpg" />
     <None Remove="New Folder\img\" />
+    <None Remove="Views\Shared\site.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,14 +40,6 @@
     <Folder Include="New Folder\img\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="New Folder\site.css">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="New Folder\site.js">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="New Folder\img\App-Learn Wordmark V1.png">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -62,6 +53,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="New Folder\img\video-game-controller-top.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="Views\Shared\site.css">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
