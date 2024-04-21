@@ -564,16 +564,14 @@ body {
 }
 
 .AI-Background{
-    background: linear-gradient(to bottom, #1ebcc8, #9b1f17);
-    height: 100vh
+    background: url(img/pexels-francesco-ungaro-998641.jpg);
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .AI-h1{
-    text-align: left;
-    padding-top: 50vh;
-    padding-left: 10vw;
-    color: white;
-    font-family: fantasy;
+    padding-top: 30vh;
+    padding-bottom: vh;
 }
 .AI-h3{
     text-align: right;
@@ -582,5 +580,37 @@ body {
     color: white;
     font-family: fantasy;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    margin-right: 5vw;
+}
+.grid-item{
+    color: white;
+    text-align: center;
+}
+.grid-item h1{
+    font-size: 60px;
+}
+.grid-item h3{
+    font-size: 40px;
+}
 
+.gamebox{
+    margin-left: 7.5vw;
+    width: 85vw;
+    height: 70vh;
+    background-color: black;
+    border: 10px solid lightseagreen;
+    margin-bottom: 20vh;
+}
+.gamebox h1{
+    text-align: center;
+    color: white;
+    padding-top: 33vh;
 
+}
+  
