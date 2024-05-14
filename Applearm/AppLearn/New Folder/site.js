@@ -1,17 +1,29 @@
-document.addEventListener("scroll", function() {
-    var sections = document.querySelectorAll('.section');
-    sections.forEach(function(section) {
-      var rect = section.getBoundingClientRect();
-      var fadeInElement = section.querySelector('.fade-in');
-      var fadeOutElement = section.querySelector('.fade-out');
-  
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-        fadeInElement.classList.add('fade-in-active');
-        fadeOutElement.classList.add('fade-out-active');
-      } else {
-        fadeInElement.classList.remove('fade-in-active');
-        fadeOutElement.classList.remove('fade-out-active');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting){
+        entry.target.classList.add('show');
       }
     });
   });
+
+  const hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach((el) => observer.observe(el));
+
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function (){
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else{
+      document.getElementById("navbar").style.top = "-110px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
   
+  window.addEventListener('scroll', function(){
+    var wheel = document.querySelector('.wheel');
+    var scrollPercent = (document.documentElement.scrollTop + this.document.body.scrollTop)
+    var rotation = scrollPercent * 360;
+
+    wheel.style.transform = 'translate(-50%, -50%) rotate(' + rotation + 'dog)';
+  });

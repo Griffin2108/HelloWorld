@@ -571,7 +571,7 @@ body {
 
 .AI-h1{
     padding-top: 30vh;
-    padding-bottom: vh;
+    padding-bottom: 40vh;
 }
 .AI-h3{
     text-align: right;
@@ -584,33 +584,82 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    padding-top: 10vh;
-    padding-bottom: 20vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     margin-right: 5vw;
 }
 .grid-item{
     color: white;
     text-align: center;
 }
-.grid-item h1{
-    font-size: 60px;
-}
-.grid-item h3{
-    font-size: 40px;
-}
 
-.gamebox{
-    margin-left: 7.5vw;
-    width: 85vw;
-    height: 70vh;
-    background-color: black;
-    border: 10px solid lightseagreen;
-    margin-bottom: 20vh;
+
+.youtubeAIVideo{
+    margin-bottom: 100vh;
+    
 }
-.gamebox h1{
+.gamebox{
+    position: absolute;
+    width: 55vw;
+    height: 55vh;
+    background-color: black;
+    border: 0.75vw solid lightseagreen;
+    left: 21vw;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.gamebox h3{
     text-align: center;
     color: white;
-    padding-top: 33vh;
+    padding-top: 22vh;
 
 }
-  
+.gameboxLabel h1{
+    text-align: center;
+    color: white;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+    font-size: 62px;
+
+}
+.whatIsGame{
+    text-align: center;
+    color: white;
+    padding-top: 35vh;
+}
+.whatIsGame h1{
+    font-size: 62px;
+    padding-bottom: 10vh;
+    margin-top: 5vh;
+}
+.whatIsGame h3{
+    font-size: 48px;
+    margin-bottom: 35vh;
+}
+
+.divideLine{
+    height:1vh;
+    border-width:0;
+    border-style: solid;
+    color: #9b1f17;
+    background-color:#9b1f17;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    opacity: 0.75;
+}
+.grid-container h1{
+    background-color: white;
+    opacity: 0.9;
+    color: lightseagreen;
+    margin-left: 10vw;
+    padding-top: 18vh;
+    padding-bottom: 20vh;
+    font-style: bold;
+    border-radius: 15px;
+    font-size: 60px;
+}
+.grid-container h3{
+    padding-top: 18vh;
+    font-size: 40px;
+}

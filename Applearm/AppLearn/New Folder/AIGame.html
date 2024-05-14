@@ -47,13 +47,13 @@
                     </div>
                 </div>
                 <div class="button-container">
-                    <a class="btn btn-dark btn-lg" style="" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
+                    <a class="btn btn-dark btn-lg" asp-area="" asp-controller="Account" asp-action="Login">Sign In</a>
                     <a class="btn btn-dark btn-lg" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
                 </div>
             </div>
         </nav>
     </header>
-    <section style="min-height: 750px;">
+    <section id="Header Section" style="min-height: 750px;">
         <div>
             <div>
                 <div class="AI-h1">
@@ -64,19 +64,77 @@
             </div>
         </div>
     </section>
-    <section>
+    <div class="line-container">
+        <svg viewBox="0 0 365 488" fill="none" preserveAspectRation="xMidYMax meet">
+            <path d="M183 175C169 175 140.5 184.8 138.5 224C138.333 237.5 147 264.7 183 265.5C219 266.3 228.667 238.167 229 224C228.5 207.667 218.6 175 183 175ZM183 175C260.2 175 278.167 169.667 277.5 167M277.5 167C266.333 127.5 231.8 39.3 183 2.5C151.5 37 88 119.8 86 175C83.5 244 82.5 279.5 76.5 294.5M277.5 167L287.5 294.5M76.5 294.5C70.5 309.5 12 314.5 5 343.5C-2 372.5 5 469.5 5 484C5 498.5 102 444 107 445M76.5 294.5C84.6667 340.333 102.2 434.6 107 445M107 445C111 445.8 206.667 445.333 254 445M254 445L363.5 484C363.5 440.5 363.5 351.5 363.5 343.5C363.5 335.5 312.833 307.5 287.5 294.5M254 445C264.4 444.931 280.667 344.638 287.5 294.5" stroke="#0F8D80" stroke-width="3"/>
+        </svg>            
+    </div>
+    <div class="divideLine"></div>
+    <section id="Introduction">
+        <div class="whatIsGame">
+            <div><h1>What is AI Game?</h1></div>
+            <div><h3>A game where you can create anything you want.</h3></div>
+        </div>
+    </section>
+    <div class="divideLine"></div>
+    <section id="What You Will Learn">
         <div class="grid-container">
-            <div class="grid-item"><h1>What is AI Game?</h1></div>
-            <div class="grid-item"><h3>A game where you can create anything you want.</h3></div>
+            <h1 class="grid-item">What you will learn</h1>
+            <h3 class="grid-item">This game will teach you about Physics.</h3>
         </div>
     </section>
-    <section>
-        <div class="gamebox">
-            <h1>This is where the game would go!</h1>
+    <div class="divideLine"></div>
+    <section id="YouTube Section">
+        <div class="youtubeAIVideo">
+            <div class="gameboxLabel"><h1>How to Make Your Own Personal Game</h1></div>
+            <div class="gamebox"><h3>YouTube Video Placeholder</h3></div>
         </div>
-        <br>
-        <br>
     </section>
+    <footer class="footer-distributed border-top " style="background-color: #9b1f17;">
+        <div class="footer-left">
+            <h3><img src="./img/App-Learn Wordmark V1.png" alt="Company Logo" style="height: 90px; width: 300px;"></h3>
+            <p class="footer-links">
+                <a href="#" class="link-1" id="footer-hover-links">HOME</a>
+                <a>|</a>
+                <a href="#" id="footer-hover-links">BLOG</a>
+                <a>|</a>
+                <a href="#" id="footer-hover-links">PRICING</a>
+                <a>|</a>
+                <a href="#" id="footer-hover-links">ABOUT</a>
+                <a>|</a>
+                <a href="#" id="footer-hover-links">FAQ</a>
+                <a>|</a>
+                <a href="#" id="footer-hover-links">CONTACT</a>
+            </p>
+            <p class="footer-company-name">AppLearn © 2023</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>1234 E West Street</span> Evansville, Indiana</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1.123.456.7890</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@AppLearn.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About AppLearn</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
